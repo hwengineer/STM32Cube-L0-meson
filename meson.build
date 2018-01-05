@@ -1,5 +1,9 @@
 # STM32Cube-L0-meson
 
+# needed defines for the HAL Driver
+c_args += '-DUSE_HAL_DRIVER'
+c_args += '-DUSE_LEGACY'
+
 # internal incdirs and srcsfiles
 stm32cube_incdirs = []
 stm32cube_srcs    = []
